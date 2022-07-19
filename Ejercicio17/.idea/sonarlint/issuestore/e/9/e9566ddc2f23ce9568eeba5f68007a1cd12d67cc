@@ -1,0 +1,15 @@
+
+r
+java:S1192?"UUse already-defined constant 'colorPorDefecto' instead of duplicating its value here.(öÜÑÌ8ášĞÔŸ0
+v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÎÍ³—8€›ĞÔŸ0
+v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(”Ôşˆ8€›ĞÔŸ0
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÔÀù28›ĞÔŸ0
+v	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Òİ‰â8‡ÑÔŸ0
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÎÍ³—8…›ĞÔŸ0
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(”Ôşˆ8…›ĞÔŸ0
+a
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ÔÀù28…›ĞÔŸ0
+b
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(Òİ‰â8‹ÑÔŸ0
