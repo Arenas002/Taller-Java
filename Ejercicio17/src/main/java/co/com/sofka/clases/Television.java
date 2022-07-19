@@ -11,14 +11,14 @@ public class Television extends Electrodomestico{
     @Getter
     private boolean sintonizadorTDT;
 
-    private final static int resolucionDefecto = 20;
+    private final static int RESOLUCION_POR_DEFECTO = 20;
 
     public Television(){
-        this.precioBase = precioBasePorDefecto;
-        this.color = colorPorDefecto;
-        this.consumoEnergetico = ConsumoEnergeticoPorDefecto;
-        this.peso = pesoPorDefecto;
-        this.resolucion = resolucionDefecto;
+        this.precioBase = PRECIO_BASE_POR_DEFECTO;
+        this.color = COLOR_POR_DEFECTO;
+        this.consumoEnergetico = CONSUMO_EJERGETICO_POR_DEFECTO;
+        this.peso = PESO_POR_DEFECTO;
+        this.resolucion = RESOLUCION_POR_DEFECTO;
         this.sintonizadorTDT = false;
     }
 

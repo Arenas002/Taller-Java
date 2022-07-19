@@ -7,14 +7,14 @@ public class lavadora extends Electrodomestico{
 @Getter
     private double  carga ;
 
-private final static double cargaPorDefecto = 5;
+private final static double CARGA_POR_DEFECTO = 5;
 
     public lavadora(){
-        this.precioBase = precioBasePorDefecto;
-        this.color = colorPorDefecto;
-        this.consumoEnergetico = ConsumoEnergeticoPorDefecto;
-        this.peso = pesoPorDefecto;
-        this.carga = cargaPorDefecto;
+        this.precioBase = PRECIO_BASE_POR_DEFECTO;
+        this.color = COLOR_POR_DEFECTO;
+        this.consumoEnergetico = CONSUMO_EJERGETICO_POR_DEFECTO;
+        this.peso = PESO_POR_DEFECTO;
+        this.carga = CARGA_POR_DEFECTO;
 
     }
 
@@ -22,7 +22,7 @@ private final static double cargaPorDefecto = 5;
     public lavadora(double precioBase, double peso) {
         this.precioBase = precioBase;
         this.peso = peso;
-        this.carga =cargaPorDefecto;
+        this.carga = CARGA_POR_DEFECTO;
 
     }
 

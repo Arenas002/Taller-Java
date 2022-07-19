@@ -1,6 +1,7 @@
 
 h	java:S116"NRename this field "DNI" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èüöšıÿÿÿÿ
-6
-java:S1170"!Make this final field static too.(¬Á¯1
+w	java:S116"[Rename this field "SEXO_POR_DEFECTO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áÀÖ‡8Ùô­»¡0
+7
+java:S1170"!Make this final field static too.(áÀÖ‡
 4
 java:S2119V"Save and re-use this "Random".(–áÍÈ

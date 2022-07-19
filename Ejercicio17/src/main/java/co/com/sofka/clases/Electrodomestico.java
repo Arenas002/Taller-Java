@@ -16,26 +16,26 @@ public class Electrodomestico {
     public double peso;
 
     //constantes por defecto
-    protected  final static double precioBasePorDefecto = 100;
-    protected final static String colorPorDefecto = "blanco";
-    protected  final static char ConsumoEnergeticoPorDefecto = 'F';
-    protected  final static double pesoPorDefecto = 5;
+    protected  final static double PRECIO_BASE_POR_DEFECTO = 100;
+    protected final static String COLOR_POR_DEFECTO = "blanco";
+    protected  final static char CONSUMO_EJERGETICO_POR_DEFECTO = 'F';
+    protected  final static double PESO_POR_DEFECTO = 5;
 
 //construcores
 
 
    public Electrodomestico(){
-      this.precioBase = precioBasePorDefecto;
-      this.color = colorPorDefecto;
-      this.consumoEnergetico = ConsumoEnergeticoPorDefecto;
-      this.peso = pesoPorDefecto;
+      this.precioBase = PRECIO_BASE_POR_DEFECTO;
+      this.color = COLOR_POR_DEFECTO;
+      this.consumoEnergetico = CONSUMO_EJERGETICO_POR_DEFECTO;
+      this.peso = PESO_POR_DEFECTO;
     }
 
     public Electrodomestico( double precioBase, double peso){
         this.precioBase = precioBase;
         this.peso = peso;
-        this.consumoEnergetico = ConsumoEnergeticoPorDefecto;
-        this.color = colorPorDefecto;
+        this.consumoEnergetico = CONSUMO_EJERGETICO_POR_DEFECTO;
+        this.color = COLOR_POR_DEFECTO;
     }
 
     public Electrodomestico(double precioBase, String color, char consumoEnergetico, double peso) {
@@ -53,7 +53,7 @@ public class Electrodomestico {
         if(letra >=65 && letra<=70){
             consumoEnergetico = letra;
         }else {
-            this.consumoEnergetico = ConsumoEnergeticoPorDefecto;
+            this.consumoEnergetico = CONSUMO_EJERGETICO_POR_DEFECTO;
         }
 
 
@@ -71,7 +71,7 @@ public class Electrodomestico {
             this.color =color;
 
         }else{
-            this.color = colorPorDefecto;
+            this.color = COLOR_POR_DEFECTO;
         }
     }
 

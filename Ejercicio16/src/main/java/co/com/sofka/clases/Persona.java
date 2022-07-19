@@ -20,13 +20,13 @@ public class Persona {
     @Setter @Getter
     private double altura ;
 
-    private final  char sexoPorDefecto = 'H';
+    private final  char SEXO_POR_DEFECTO = 'H';
 
 
     public Persona(){
     this.nombre = "";
     this.edad =0;
-    this.sexo = sexoPorDefecto;
+    this.sexo = SEXO_POR_DEFECTO;
     this.peso = 0;
     this.altura =0;
     }
@@ -53,7 +53,7 @@ public class Persona {
 
         //Si el sexo no es una H o una M, por defecto es H
         if (sexo != 'H' && sexo != 'M') {
-            this.sexo = sexoPorDefecto;
+            this.sexo = SEXO_POR_DEFECTO;
         }
     }
 
